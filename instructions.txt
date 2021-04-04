@@ -31,3 +31,11 @@ ________________________________________________________________
 git remote add origin git@github.com:alim51/my_first_repository.git
 git branch -M main
 git push -u origin main
+
+Cloning a Repository from GitHub onto Local Machine via HTTPS
+_____________________________________________________________
+git clone https://github.com/alim51/my_second_repository.git
+
+Cloning a Repository from GitHub onto Local Machine via SSH
+___________________________________________________________
+git clone git@github.com:alim51/my_second_repository.git
