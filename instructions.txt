@@ -1,0 +1,33 @@
+How to Create A New Repository on the Command Line and Connect Using HTTPS
+__________________________________________________________________________
+echo "# my_first_repository" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/alim51/my_first_repository.git
+git push -u origin main
+
+How to Push an Existing Repository from the Command Line Using HTTPS
+____________________________________________________________________
+git remote add origin https://github.com/alim51/my_first_repository.git
+git branch -M main
+git push -u origin main
+
+From <https://github.com/alim51/my_first_repository> 
+
+How to Create A New Repository on the Command Line and Connect Using SSH
+________________________________________________________________________
+echo "# my_first_repository" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:alim51/my_first_repository.git
+git push -u origin main
+
+How to Push an Existing Repository from the Command Line via SSH
+________________________________________________________________
+git remote add origin git@github.com:alim51/my_first_repository.git
+git branch -M main
+git push -u origin main
